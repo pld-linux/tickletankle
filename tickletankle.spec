@@ -2,7 +2,7 @@ Summary:	A 2-player tank game
 Summary(pl):	2-osobowa gra, w której walczy siê czo³giem
 Name:		tickletankle
 Version:	0.8
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://triskam.virtualave.net/tickletankle/%{name}-%{version}.tar.gz
