@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=tickletankle
+Comment=2-player tank game
+Comment[pl]=2-osobowa gra, w której walczy się czołgiem
+Exec=tickletankle
+Terminal=0
+Icon=tickletankle.png
+Type=Application
+# vi: encoding=utf-8
