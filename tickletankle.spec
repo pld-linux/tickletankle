@@ -2,7 +2,7 @@ Summary:	A 2-player tank game
 Summary(pl):	2-osobowa gra, w której walczy siê czo³giem
 Name:		tickletankle
 Version:	0.8
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://triskam.virtualave.net/tickletankle/%{name}-%{version}.tar.gz
@@ -32,10 +32,10 @@ sterowany przez komputer. Celem gry jest zbombardowanie przeciwnika.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_bindir},%{_applnkdir}/Games,%{_pixmapsdir}}
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_desktopdir},%{_pixmapsdir}}
 
 install %{name}.tcl $RPM_BUILD_ROOT%{_bindir}/%{name}
-install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/Games
+install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
 install %{SOURCE2} $RPM_BUILD_ROOT%{_pixmapsdir}
 
 %clean
@@ -45,5 +45,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc ChangeLog TODO
 %attr(755,root,root) %{_bindir}/*
-%{_applnkdir}/Games/*
+%{_desktopdir}/*
 %{_pixmapsdir}/*
