@@ -6,4 +6,5 @@ Exec=tickletankle
 Terminal=0
 Icon=tickletankle.png
 Type=Application
+Encoding=UTF-8
 # vi: encoding=utf-8
