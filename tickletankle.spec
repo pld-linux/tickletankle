@@ -1,5 +1,5 @@
 Summary:	A 2-player tank game
-Summary(pl):	2-osobowa gra, w której walczy siê czo³giem
+Summary(pl.UTF-8):   2-osobowa gra, w ktÃ³rej walczy siÄ™ czoÅ‚giem
 Name:		tickletankle
 Version:	0.8
 Release:	3
@@ -22,9 +22,9 @@ or a LAN. You can play against a human player or a computer-controlled
 opponent (AI player). The objective of the game is to bomb the other
 player away.
 
-%description -l pl
-2-osobowa gra, w której walczy siê czo³giem. Graæ mo¿na lokalnie,
-przez Internet lub LAN. Przeciwnikiem mo¿e byæ cz³owiek, lub gracz
+%description -l pl.UTF-8
+2-osobowa gra, w ktÃ³rej walczy siÄ™ czoÅ‚giem. GraÄ‡ moÅ¼na lokalnie,
+przez Internet lub LAN. Przeciwnikiem moÅ¼e byÄ‡ czÅ‚owiek, lub gracz
 sterowany przez komputer. Celem gry jest zbombardowanie przeciwnika.
 
 %prep
