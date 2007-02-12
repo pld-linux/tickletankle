@@ -1,5 +1,5 @@
 Summary:	A 2-player tank game
-Summary(pl.UTF-8):   2-osobowa gra, w której walczy się czołgiem
+Summary(pl.UTF-8):	2-osobowa gra, w której walczy się czołgiem
 Name:		tickletankle
 Version:	0.8
 Release:	3
